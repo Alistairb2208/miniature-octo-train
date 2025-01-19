@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hole In One Resort</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .hero {
+            background-image: url('https://i.imgur.com/zgTdQpf.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 20px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .hero h2 {
+            font-size: 60px;
+            margin: 10px 0;
+        }
+
+        .hero h3 {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .booking {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .booking input, .booking select, .booking button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .booking button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .booking button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>WELCOME TO</h1>
+            <h2>Hole In One</h2>
+            <h3>Resort and Golf Course Hotel</h3>
+            <p>Experience luxury and relaxation in a serene golf course setting</p>
+            <div class="booking">
+                <input type="date" placeholder="Check in">
+                <input type="date" placeholder="Check out">
+                <select>
+                    <option>2 Persons</option>
+                    <option>1 Person</option>
+                    <option>3 Persons</option>
+                </select>
+                <button>Check</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Hole In One Resort. All rights reserved.</p>
+    </footer>
+</body>
+</html>
